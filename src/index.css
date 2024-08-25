@@ -1,0 +1,74 @@
+#demoFont {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+span{
+  color: white;
+  font-size: 18px;
+}
+.active {
+  color: rgb(38, 7, 66) !important;
+}
+
+.nv-bg{
+  background: #9349e3d6;
+}
+
+body {
+  background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-hoja-cannabis-realista_23-2148770967.jpg");
+}
+h1, h2{
+  color: white;
+}
+
+.form-label{
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #9349e3d6;
+  border: solid 1px gray;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: all linear 0.2s;
+  background-color: #4971e3d6;
+
+}
+
+.btn-fijo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #38367b;
+  background-color: #6ced5c;
+  text-decoration: none;
+  border: outset;
+  border-radius: 9rem;
+  width: 7rem;
+  height: 3.5rem;
+}
+
+.btn-fijo:hover {
+  transform: scale(0.9);
+  border: outset;
+  border-radius: 10rem;
+}
